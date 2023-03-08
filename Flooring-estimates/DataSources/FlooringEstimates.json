@@ -1,0 +1,24 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-02-01T17:24:16.6750000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Category": "Category",
+      "Image": "Image",
+      "Name": "Name",
+      "Overview": "Overview",
+      "Price": "Price"
+    },
+    "DatasetName": "b!7BEuyvbd3E-vl0TD8AoeW558tUslbihOpTZu_ZaJykIfzzR5TXwGT5sqrXYrmlvs.01NX4JBSSEKVRMVSP3VJEYW7D7IHARIDND",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "FlooringEstimates",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
