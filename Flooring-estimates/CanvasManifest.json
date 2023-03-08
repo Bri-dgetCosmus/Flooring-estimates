@@ -118,10 +118,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Registration",
     "Login",
     "BrowseScreen1",
     "DetailScreen1",
-    "Registration",
     "EditScreen1",
     "Success"
   ]
