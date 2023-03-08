@@ -33,7 +33,7 @@ Login As screen:
 
     TextInput1 As text:
         BorderColor: =RGBA(99, 139, 44, 1)
-        Default: ="Text input"
+        Default: =""
         Height: =70
         HintText: ="username"
         RadiusBottomLeft: =25
@@ -63,8 +63,10 @@ Login As screen:
         ZIndex: =5
 
     Button1 As button:
-        BorderColor: |
-            =If(TextInput1.Text in username && TextInput2.Text in password,Navigate(BrowseScreen1),Navigate(Success))
+        BorderColor: |+
+            =If(TextInput1.Text in username && TextInput2.Text in password,Navigate(BrowseScreen1),Navigate(Success))If(
+            
+            
         Fill: =RGBA(99, 139, 44, 1)
         Height: =70
         Size: =24
