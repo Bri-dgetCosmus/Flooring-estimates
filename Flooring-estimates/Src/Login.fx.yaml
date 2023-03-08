@@ -66,6 +66,7 @@ Login As screen:
         BorderColor: =If(TextInput1.Text in Table1.username && TextInput2.Text in Table1.password,Navigate(BrowseScreen1),Navigate(Success))
         Fill: =RGBA(99, 139, 44, 1)
         Height: =70
+        OnSelect: =If(TextInput1.Text in Table1.username && TextInput2.Text in Table1.password,Navigate(BrowseScreen1),Navigate(Success))
         Size: =24
         Text: ="Login"
         Width: =280
