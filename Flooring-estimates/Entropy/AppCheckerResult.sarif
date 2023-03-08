@@ -23,8 +23,48 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 6,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Browse"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Success",
+                "type": "Success.Icon1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Browse"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Success.Icon1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Success.Icon1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 4,
-                  "charOffset": 15,
+                  "charOffset": 16,
                   "snippet": {
                     "text": "None"
                   }
