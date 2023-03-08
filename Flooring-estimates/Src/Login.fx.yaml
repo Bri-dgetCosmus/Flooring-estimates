@@ -63,10 +63,7 @@ Login As screen:
         ZIndex: =5
 
     Button1 As button:
-        BorderColor: |+
-            =If(TextInput1.Text in username && TextInput2.Text in password,Navigate(BrowseScreen1),Navigate(Success))If(
-            
-            
+        BorderColor: =If(TextInput1.Text in Table1.username && TextInput2.Text in Table1.password,Navigate(BrowseScreen1),Navigate(Success))
         Fill: =RGBA(99, 139, 44, 1)
         Height: =70
         Size: =24
