@@ -1,0 +1,17 @@
+[
+  {
+    "Data": "[{\"password\":\"567890\",\"username\":\"user45\"},{\"password\":\"87jhyu90\",\"username\":\"user0023\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table1",
+    "OrderedColumnNames": [
+      "username",
+      "password"
+    ],
+    "OriginalName": "Table1",
+    "OriginalSchema": "*[password:s, username:s]",
+    "Schema": "*[password:s, username:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
