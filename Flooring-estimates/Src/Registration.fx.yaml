@@ -1,2 +1,55 @@
 Registration As screen:
+    BackgroundImage: ='Green Mountain Landscape Illustration Phone Wallpaper'
+
+    Label3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =48
+        Text: ="User Registration"
+        Width: =560
+        X: =46
+        Y: =186
+        ZIndex: =1
+
+    TextInput3 As text:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Name"
+        RadiusBottomLeft: =25
+        RadiusBottomRight: =25
+        RadiusTopLeft: =25
+        RadiusTopRight: =25
+        Size: =21
+        Width: =560
+        X: =46
+        Y: =332
+        ZIndex: =2
+
+    TextInput4 As text:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Default: =" "
+        Height: =70
+        HintText: ="Email Address"
+        RadiusBottomLeft: =25
+        RadiusBottomRight: =25
+        RadiusTopLeft: =25
+        RadiusTopRight: =25
+        Size: =21
+        Width: =560
+        X: =46
+        Y: =437
+        ZIndex: =3
+
+    TextInput5 As text:
+        Default: ="Text input"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =46
+        Y: =542
+        ZIndex: =4
 
