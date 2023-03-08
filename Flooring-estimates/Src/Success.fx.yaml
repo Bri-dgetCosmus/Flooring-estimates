@@ -1,21 +1,17 @@
 "Success As screen.'phoneLayout_Success_ver3.0'":
 
-    iconCircle1 As circle.Circle:
-        X: =Parent.Width/2 - Self.Width/2
-        Y: =(Parent.Height/2 - Self.Height/2) * .7
-        ZIndex: =1
-
     iconCheck1 As icon.Check:
         BorderColor: =RGBA(99, 139, 44, 1)
-        Height: =iconCircle1.Height
-        Icon: =Icon.Check
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =100
+        Icon: =Icon.Cancel
         PaddingBottom: =Self.PaddingTop
         PaddingLeft: =Self.PaddingTop
         PaddingRight: =Self.PaddingTop
         PaddingTop: =18
-        Width: =iconCircle1.Width
-        X: =Parent.Width/2 - Self.Width/2
-        Y: =(Parent.Height/2 - Self.Height/2) * .7
+        Width: =100
+        X: =275
+        Y: =295
         ZIndex: =2
 
     LblSuccessMsg1 As label:
@@ -25,7 +21,15 @@
         Size: =21
         Text: ="Forgot password. Please contact Admin."
         Width: =Parent.Width * 0.75
-        X: =Parent.Width/2 - Self.Width/2
-        Y: =iconCheck1.Y + iconCheck1.Height + 100
+        X: =70
+        Y: =480
         ZIndex: =3
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(99, 139, 44, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Login,None)
+        X: =40
+        Y: =40
+        ZIndex: =4
 

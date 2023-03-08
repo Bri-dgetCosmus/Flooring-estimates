@@ -39,11 +39,11 @@
     "ErrorMessage4": 68,
     "ErrorMessage5": 73,
     "galleryTemplate1": 35,
+    "Icon1": 85,
     "IconAccept1": 45,
     "IconBackarrow1": 5,
     "IconCancel1": 44,
     "iconCheck1": 77,
-    "iconCircle1": 76,
     "IconDelete1": 7,
     "IconEdit1": 6,
     "IconNewItem1": 30,
@@ -88,7 +88,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/08/2023 07:45:40",
+  "HeaderLastSavedDateTimeUTC": "03/08/2023 07:54:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "93784507-7ff6-4bbf-a0ae-133b63b3a49f": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/d5a19a369a3e40d3b2a9475c59a7b823\"",
@@ -114,7 +114,6 @@
   "OrderXMLTemplate": {
     "addMedia": 8,
     "button": 9,
-    "circle": 10,
     "form": 7,
     "formViewer": 3,
     "gallery": 6,
@@ -162,11 +161,11 @@
     "ErrorMessage4": {},
     "ErrorMessage5": {},
     "galleryTemplate1": {},
+    "Icon1": {},
     "IconAccept1": {},
     "IconBackarrow1": {},
     "IconCancel1": {},
     "iconCheck1": {},
-    "iconCircle1": {},
     "IconDelete1": {},
     "IconEdit1": {},
     "IconNewItem1": {},
@@ -248,11 +247,11 @@
     "ErrorMessage4": 68,
     "ErrorMessage5": 73,
     "galleryTemplate1": 15,
+    "Icon1": 0,
     "IconAccept1": 45,
     "IconBackarrow1": 23,
     "IconCancel1": 44,
     "iconCheck1": 75,
-    "iconCircle1": 74,
     "IconDelete1": 25,
     "IconEdit1": 24,
     "IconNewItem1": 10,
@@ -318,7 +317,7 @@
       "typedDataCard": 10
     },
     "DeserializationLoadTime": 0.7802615,
-    "ErrorCount": 5
+    "ErrorCount": 8
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
